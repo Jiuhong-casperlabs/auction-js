@@ -8,7 +8,6 @@ import {
   RuntimeArgs,
   CLString,
   CLMap,
-  CLByteArray,
   CLAccountHash,
   CLPublicKey,
   CLKey,

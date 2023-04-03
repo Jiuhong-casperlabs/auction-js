@@ -2,7 +2,6 @@ import {
   DeployUtil,
   CasperClient,
   RuntimeArgs,
-  CLValueBuilder,
   CLMap,
   CLList,
   CLKey,
@@ -81,12 +80,6 @@ const main = async () => {
       constants.DEPLOY_GAS_PAYMENT_FOR_SESSION_TRANSFER
     )
   );
-
-  //   deploy = DeployUtil.addArgToDeploy(
-  //     deploy,
-  //     "toAccountAddr",
-  //     keyPairofTarget.publicKey
-  //   );
 
   //Step 5.2 Sign deploy.
   deploy = client.signDeploy(deploy, keyPairofContract);
