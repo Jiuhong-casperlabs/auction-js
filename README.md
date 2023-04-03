@@ -6,7 +6,7 @@
 
 [cask_install](./cask_install.js)
 
-## Mint a token from CaskNFT contract which will be bidded. 
+## Mint a token from CaskNFT contract which will be bided. 
 
 [cask_mint_token](./cask_mint_token.js)
 
